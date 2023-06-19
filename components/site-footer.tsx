@@ -2,7 +2,7 @@ import * as React from "react";
 import {Command} from "lucide-react";
 
 import {cn} from "@/lib/utils";
-// import {ModeToggle} from "@/components/mode-toggle";
+import {ModeToggle} from "@/components/mode-toggle";
 
 export function SiteFooter({className}: React.HTMLAttributes<HTMLElement>) {
   return (
@@ -22,7 +22,7 @@ export function SiteFooter({className}: React.HTMLAttributes<HTMLElement>) {
             </a>
           </p>
         </div>
-        {/* <ModeToggle /> */}
+        <ModeToggle />
       </div>
     </footer>
   );
